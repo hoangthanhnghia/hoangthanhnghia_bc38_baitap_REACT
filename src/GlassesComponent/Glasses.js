@@ -20,40 +20,40 @@ import styles from "./Glasses.module.css";
 console.log(styles)
 
 export default class Glasses extends Component {
-    // state = {
-    //     glassesImage: Glasses1,
-    // };
-    // changeGlasses(type){
-    //     let newGlasses;
-    //     switch (type) {
-    //         case "v1":
-    //             newGlasses = Glassesg1;
-    //             break;
-    //         case "v2":
-    //                 newGlasses = Glassesg2;
-    //                 break;               
-    //        case "v3":
-    //                     newGlasses = Glassesg3;
-    //                     break;  
-    //         case "v4":
-    //                         newGlasses = Glassesg4;
-    //                         break;                    
+    state = {
+        glassesImage: Glasses1,
+    };
+    changeGlasses(type){
+        let newGlasses;
+        // switch (type) {
+        //     case "v1":
+        //         newGlasses = Glassesg1;
+        //         break;
+        //     case "v2":
+        //             newGlasses = Glassesg2;
+        //             break;               
+        //    case "v3":
+        //                 newGlasses = Glassesg3;
+        //                 break;  
+        //     case "v4":
+        //                     newGlasses = Glassesg4;
+        //                     break;                    
                             
-    //         default;
-    //         break;
-    //     }
-    //     if (!newGlasses) return;
-    // this.setState(
-    //     {
+        //     default;
+        //     break;
+        // }
+        if (!newGlasses) return;
+    this.setState(
+        {
         
-    //         glassesImage: newGlasses,
+            glassesImage: newGlasses,
         
-    // },
-    // () => {
-    //     console.log(this.state.glassesImage);
-    // }
-    // );
-    // }
+    },
+    () => {
+        console.log(this.state.glassesImage);
+    }
+    );
+    }
     
   render() {
     return (

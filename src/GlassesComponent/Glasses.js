@@ -25,23 +25,23 @@ export default class Glasses extends Component {
     };
     changeGlasses(type){
         let newGlasses;
-        // switch (type) {
-        //     case "v1":
-        //         newGlasses = Glassesg1;
-        //         break;
-        //     case "v2":
-        //             newGlasses = Glassesg2;
-        //             break;               
-        //    case "v3":
-        //                 newGlasses = Glassesg3;
-        //                 break;  
-        //     case "v4":
-        //                     newGlasses = Glassesg4;
-        //                     break;                    
+        switch (type) {
+            case "v1":
+                newGlasses = Glassesg1;
+                break;
+            case "v2":
+                    newGlasses = Glassesg2;
+                    break;               
+           case "v3":
+                        newGlasses = Glassesg3;
+                        break;  
+            case "v4":
+                            newGlasses = Glassesg4;
+                            break;                    
                             
-        //     default;
-        //     break;
-        // }
+            default:
+            break;
+        }
         if (!newGlasses) return;
     this.setState(
         {
